@@ -154,7 +154,6 @@ public class Main {
                     switch (opcionModificarPosicion) {
                     case 1:
                     	jugador.setPosicion(Posicion.DELANTERO);
-                       // productoModificar.setOrigenFabricacion(OrigenFabricacion.ARGENTINA);
                         break;
                     case 2:
                     	jugador.setPosicion(Posicion.MEDIO);
@@ -168,10 +167,6 @@ public class Main {
                     default:
                         System.out.println("Opción inválida.");
                 }
-	                
-	                //System.out.println("Ingrese la nueva posición del jugador (DELANTERO, MEDIO, DEFENSA, ARQUERO):");
-	                //Posicion nuevaPosicion = Posicion.valueOf(scanner.next().toUpperCase());
-	               // jugador.setPosicion(nuevaPosicion);
 	                jugadorEncontrado = true;
 	                System.out.println("Posición del jugador modificada correctamente.");
 	                break;
