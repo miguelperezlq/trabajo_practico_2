@@ -73,6 +73,14 @@ public class Producto {
 
 
 
+	@Override
+	public String toString() {
+		return "Producto [codigo=" + codigo + ", descripcion=" + descripcion + ", precioUnitario=" + precioUnitario
+				+ ", origenFabricacion=" + origenFabricacion + ", categoria=" + categoria + ", estado=" + estado + "]";
+	}
+
+
+
 	//ENUM ORIGEN FABRICACION
 	public enum OrigenFabricacion{
 		ARGENTINA, CHINA, BRASIL, URUGUAY
